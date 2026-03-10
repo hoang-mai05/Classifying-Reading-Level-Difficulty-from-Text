@@ -65,7 +65,9 @@ We assigned Lexile Scores of 400 - 1000 as Lower-Level passages, and 1001 - 1201
 ## Setup & Installation
 
 To run the notebooks, ensure you have the following dependencies installed:
-> ```pip install torch transformers sentencepiece protobuf tiktoken gensim scikit-learn pandas numpy matplotlib```
+
+```pip install torch transformers sentencepiece protobuf tiktoken gensim scikit-learn pandas numpy matplotlib```
+
   1. **Baseline Run:** Open Word2Vec.ipynb and ensure the GoogleNews-vectors-negative300.bin file is in the word2vec/ directory.
 
   2. **Advanced Run:** Open randomForest.ipynb. The notebook will automatically download the DeBERTa model from the Hugging Face Hub.
