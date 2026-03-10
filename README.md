@@ -11,7 +11,9 @@ This project implements an automated system to assess the reading difficulty of 
 The goal is to build a **binary classifier** that categorizes texts into two coarse difficulty levels based on the UK National Curriculum:
   * **Class 0: Lower-level** (Ages 7-14, UK Key Stage 2-3).
   * **Class 1: Upper-level** (Ages 14-18, UK Key Stage 4-5).
+
 The project followed a two-stage development cycle:
+
   1. **Problem 1 (Restricted)**: Logistic Regression using a Bag-of-Words (BoW) representation.
   2. **Problem 2 (Open Challenge)**: An open-ended exploration allowing advanced features like LLM embeddings and non-linear models.
 
