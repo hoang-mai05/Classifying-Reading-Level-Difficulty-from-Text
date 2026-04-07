@@ -59,7 +59,7 @@ We assigned Lexile Scores of 400 - 1000 as Lower-Level passages, and 1001 - 1201
 ## Evaluation & Best Practices
 
 **Performance Metric:** Area Under the ROC Curve (AUROC).
-**Cross-Validation:** $5$-fold GroupKFold split by author to prevent data leakage and ensure the model learns readability, not author style.
+**Cross-Validation:** $5$-fold GroupKFold split by author to prevent data leakage and ensure the model learns readability instead of author style.
 **Hyperparameter Search:** Systematic search over regularization strengths ($C$) for Logistic Regression and max_depth / n_estimators for Random Forest.
 
 ---
